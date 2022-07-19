@@ -1,5 +1,5 @@
 /* ---------- font ---------- */
-<script src="https://kit.fontawesome.com/90625f409e.js" crossorigin="anonymous"></script>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* ---------- utilities ---------- */
 body{
@@ -84,27 +84,25 @@ main{
     background-color: #FFFFFF;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.btn1{
+/* .btn1{
+    color: #FFFFFF;
     text-decoration: none;
     background-color: #DD0000;
-    width: 200px;
-    height: 60px;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 30px;
-}
+} */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 100%;
+    width: 1000px;
     height: 600px;
 }
 .player{
     width: 300px;
     height: 400px;
-    margin-left: 24px;
     border: 1px solid gray;
     border-radius: 11px;
     margin-bottom: 24px;
@@ -114,11 +112,25 @@ main{
     height: 200px;
 }
 .player button{
-    margin: 5px 10px;
+    margin: 10px 10px;
 }
 .player, .name{
     margin-left: 12px;
-    margin-right: 10px;
     font-size: 18px;
     color:#161616;
+}
+.player-details{
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    margin-top: 30px;
+}
+.duration{
+    color: rgba(22, 22, 22, 0.7);
+    font-size: 16px;
+}
+.comment{
+    color: rgba(22, 22, 22, 0.7);
+    font-size: 16px;
+    margin-left: 50px;
 }
