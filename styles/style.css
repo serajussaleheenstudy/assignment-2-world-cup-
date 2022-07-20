@@ -11,12 +11,12 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #B9B9B9;
-    position: absolute;
+    padding-top: 5px;
 }
 main{
     background-color: #FFFFFF;
-    max-width: 1370px;
     position: absolute;
+    width: 100%;
 }
 
 /* ========================================== */
@@ -25,49 +25,44 @@ main{
 
 .top-banner{
     background-color: #161616;
-    max-width: 1200px;
     height: 600px;
     border-radius: 30px;
-    margin-left: 70px;
+    margin: 50px 7.5%;
 }
 .container{
     display: flex;
-    width: 600px;
-    height: 250px;
-    margin-left: 80px;
-    margin-top: 50px;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 70px;
 }
 .heading{
-    width: 450px;
+    width: 500px;
     height: 200px;
+    line-height: 75px;
     color:#FFFFFF;
     font-weight: 700px;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 80px;
 }
 .context{
     color: #FFFFFF;
-    font-weight: 150;
     font-size: 15px;
-    width: 400px;
+    width: 450px;
     height: 80px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .button{
     text-decoration: none;
     color: #FFFFFF;
-    width: 20px;
-    height: 10px;
     background-color:#DD0000;
     border-radius: 4px;
-    padding: 10px;
-    margin-top: 400px;
+    padding: 15px;
 }
 .photo img{
-    width: 500px;
     height: 550px;
     margin-top: 50px;
+    margin-left: 35px;
 }
 
 /* =================================== */
@@ -79,15 +74,14 @@ main{
 /* ================================ */
 
 .section-container{
-    width: 1320px;
     display: flex;
-    border-radius: 30px;
-    margin-left: 70px;
+    flex-direction: row;
+    margin-left: 8.5em;
     margin-top: 50px;
 }
 .side-col{
-    width: 175px;
-    height: 225px;
+    width: 230px;
+    height: 250px;
     background-color:#161616;
     border-radius: 10px;
     padding: 20px;
@@ -105,8 +99,8 @@ main{
     flex-direction: column;
     background-color: #FFFFFF;
     border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     padding: 10px;
     text-align: center;
     color: #161616;
@@ -126,9 +120,7 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 975px;
-    height: 650px;
-    margin-left: 20px;
+    margin-left: 17em;
 }
 .player{
     width: 300px;
@@ -136,7 +128,8 @@ main{
     border: 1px solid;
     box-shadow: 5px 10px 5px gray;
     border-radius: 11px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
 .player img{
     width: 100%;
@@ -172,15 +165,14 @@ main{
 
 footer{
     background-color: #161616;
-    max-width: 100%;
-    height: 300px;
-    margin-top: 700px;
+    margin-top: 100px;
+    height: 400px;
 }
 #footer-head{
     text-align: center;
     color: #FFFFFF;
+    padding-top: 90px;
     margin-bottom: 30px;
-    padding-top: 50px;
 }
 hr{
     margin-left: 80px;
@@ -191,12 +183,12 @@ hr{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    padding-top: 15px;
+    margin-bottom: 90px;
 }
 .footer-content a{
     text-decoration: none;
     color: #B9B9B9;
-    margin: 0px 20px;
+    margin: 40px 20px;
 }
 
 /* =================================== */
