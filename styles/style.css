@@ -133,7 +133,8 @@ main{
 .player{
     width: 300px;
     height: 400px;
-    border: 1px solid gray;
+    border: 1px solid;
+    box-shadow: 5px 10px 5px gray;
     border-radius: 11px;
     margin-bottom: 24px;
 }

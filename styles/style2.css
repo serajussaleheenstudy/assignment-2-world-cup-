@@ -141,7 +141,8 @@ main{
     flex-direction: column;
     width: 275px;
     height: 250px;
-    border: 1px solid gray;
+    border: 1px solid;
+    box-shadow: 5px 10px 5px gray;
     border-radius: 11px;
     margin-bottom: 24px;
     padding-top: 30px;
