@@ -1,0 +1,185 @@
+/* ---------- font ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* ---------- utilities ---------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #B9B9B9;
+}
+main{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 1800px;
+}
+.top-banner{
+    background-color: #161616;
+    width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+    margin-left: 70px;
+}
+.container{
+    display: flex;
+    width: 600px;
+    height: 250px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.heading{
+    width: 450px;
+    height: 200px;
+    color:#FFFFFF;
+    font-weight: 700px;
+    font-size: 50px;
+    margin-top: 80px;
+}
+.context{
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.button{
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 20px;
+    height: 10px;
+    background-color:#DD0000;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 400px;
+}
+.photo img{
+    width: 500px;
+    height: 550px;
+    margin-top: 50px;
+}
+.section-container{
+    width: 1200px;
+    display: flex;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.side-col{
+    width: 200px;
+    height: 225px;
+    background-color:#161616;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.side-btn{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.side-btn a{
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #161616;
+}
+.btn3{
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 600px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 11px;
+    margin-bottom: 24px;
+    padding-top: 30px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.player img{
+    width: 100%;
+    height: 100px;
+}
+.matches{
+    display: flex;
+    flex-direction: row;
+}
+.matches h4{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.match-feature h3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.match-feature p{
+text-align: center;
+font-size: 15px;
+}
+.player button{
+    margin: 10px 10px;
+}
+.player, .name{
+    margin-left: 12px;
+    font-size: 18px;
+    color:#161616;
+}
+.player-details{
+    display: flex;
+    align-items: center;
+    margin-left: 14px;
+    margin-top: 30px;
+}
+.duration{
+    color: rgba(22, 22, 22, 0.7);
+    font-size: 16px;
+}
+.comment{
+    color: rgba(22, 22, 22, 0.7);
+    font-size: 16px;
+    margin-left: 50px;
+}
+footer{
+    background-color: #161616;
+    width: 100%;
+    height: 250px;
+    margin-top: 400px;
+}
+#footer-head{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    padding-top: 70px;
+}
+hr{
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: #B9B9B9;
+    margin: 0px 20px;
+}

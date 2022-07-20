@@ -66,7 +66,7 @@ main{
 }
 .side-col{
     width: 200px;
-    height: 250px;
+    height: 225px;
     background-color:#161616;
     border-radius: 10px;
     padding: 15px 20px;
@@ -76,23 +76,25 @@ main{
     display: flex;
     flex-direction: column;
 }
+.side-btn a{
+    text-decoration: none;
+}
 .btn{
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     background-color: #FFFFFF;
     border-radius: 5px;
     padding: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    color: #161616;
 }
-/* .btn1{
-    color: #FFFFFF;
-    text-decoration: none;
+.btn3{
     background-color: #DD0000;
     border-radius: 5px;
     padding: 10px;
-} */
+    margin-top: 4px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
