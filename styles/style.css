@@ -106,17 +106,17 @@ main{
     background-color: #FFFFFF;
     border-radius: 5px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 10px;
     text-align: center;
+    color: #161616;
 }
-.btn3{
+.btn3 a{
     background-color: #DD0000;
     border-radius: 5px;
     padding: 10px 63px;
-    margin-bottom: 20px;
     color: #FFFFFF;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 /* ============================================ */
