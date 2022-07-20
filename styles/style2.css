@@ -5,23 +5,24 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #B9B9B9;
+    position: absolute;
 }
 main{
-    background-color: #FFFFFF;
-    width: 100%;
-    height: 1800px;
+    max-width: 1370px;
     position: absolute;
+    background-color: #FFFFFF;
 }
 .top-banner{
     background-color: #161616;
-    width: 1200px;
+    max-width: 1200px;
     height: 600px;
     border-radius: 30px;
     margin-left: 70px;
+    margin-right: 70px;
 }
 .container{
     display: flex;
-    width: 600px;
+    max-width: 600px;
     height: 250px;
     margin-left: 80px;
     margin-top: 50px;
@@ -58,11 +59,12 @@ main{
     margin-top: 50px;
 }
 .section-container{
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     border-radius: 30px;
     margin-left: 70px;
     margin-top: 50px;
+    margin-right: 70px;
 }
 .side-col{
     width: 200px;
@@ -167,7 +169,7 @@ font-size: 15px;
 }
 footer{
     background-color: #161616;
-    width: 100%;
+    max-width: 100%;
     height: 300px;
     margin-top: 400px;
 }
