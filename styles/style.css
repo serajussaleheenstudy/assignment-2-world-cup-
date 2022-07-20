@@ -5,11 +5,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #B9B9B9;
+    position: absolute;
 }
 main{
     background-color: #FFFFFF;
-    width: 1320px;
+    width: 1375px;
     height: 2200px;
+    position: absolute;
 }
 .top-banner{
     background-color: #161616;
@@ -170,8 +172,8 @@ hr{
 /* ---------- media series ---------- */
 
 /* ---------- mobile device ---------- */
-/* 
-@media only screen and (max-width: 688px){
+
+@media only screen and (max-width: 968px){
     .top-banner{
         width: 851px;
         margin-left: 0;
@@ -183,9 +185,10 @@ hr{
 
     }
     .section-container{
-        grid-template-columns: repeat(1, 1fr);
+        display: none;
+        background-color: #DD0000;
     }
     .player .player-details{
         display: none;
     }
-} */
+}
