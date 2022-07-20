@@ -72,16 +72,15 @@ main{
     padding: 15px 20px;
 }
 .side-btn{
-    text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .side-btn a{
     text-decoration: none;
     color: #161616;
 }
 .btn{
-    display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -90,10 +89,10 @@ main{
     margin-bottom: 40px;
     color: #161616;
 }
-.btn3 a{
+.btn3{
     background-color: #DD0000;
     border-radius: 5px;
-    padding: 10px 80px;
+    padding: 30px 80px;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
@@ -164,3 +163,26 @@ hr{
     color: #B9B9B9;
     margin: 0px 20px;
 }
+
+/* ---------- media series ---------- */
+
+/* ---------- mobile device ---------- */
+/* 
+@media only screen and (max-width: 688px){
+    .top-banner{
+        width: 851px;
+        margin-left: 0;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .container{
+        margin-top: 0;
+
+    }
+    .section-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player .player-details{
+        display: none;
+    }
+} */
