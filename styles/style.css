@@ -58,7 +58,7 @@ main{
     margin-top: 50px;
 }
 .section-container{
-    width: 100%;
+    width: 1320px;
     display: flex;
     border-radius: 30px;
     margin-left: 70px;
@@ -100,8 +100,9 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1000px;
-    height: 600px;
+    width: 975px;
+    height: 650px;
+    margin-left: 20px;
 }
 .player{
     width: 300px;
