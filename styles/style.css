@@ -8,7 +8,7 @@ body{
 }
 main{
     background-color: #FFFFFF;
-    width: 100%;
+    width: 1320px;
     height: 2200px;
 }
 .top-banner{
@@ -58,18 +58,18 @@ main{
     margin-top: 50px;
 }
 .section-container{
-    width: 1200px;
+    width: 100%;
     display: flex;
     border-radius: 30px;
     margin-left: 70px;
     margin-top: 50px;
 }
 .side-col{
-    width: 200px;
+    width: 175px;
     height: 225px;
     background-color:#161616;
     border-radius: 10px;
-    padding: 15px 20px;
+    padding: 20px;
 }
 .side-btn{
     display: flex;
@@ -84,17 +84,18 @@ main{
     flex-direction: column;
     background-color: #FFFFFF;
     border-radius: 5px;
-    padding: 10px;
     margin-top: 10px;
-    margin-bottom: 40px;
-    color: #161616;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
 }
 .btn3{
     background-color: #DD0000;
     border-radius: 5px;
-    padding: 30px 80px;
+    padding: 10px 63px;
     margin-bottom: 20px;
     color: #FFFFFF;
+    margin-top: 10px;
 }
 .players{
     display: grid;
