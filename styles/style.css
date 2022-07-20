@@ -205,7 +205,7 @@ hr{
 /* ==================================== */
 /* ---------- mobile device ---------- */
 /* ================================== */
-
+/*  
 @media only screen and (max-width: 968px){
     .top-banner{
         width: 851px;
@@ -224,12 +224,12 @@ hr{
     .player .player-details{
         display: none;
     }
-}
+} */
 
 /* ==================================== */
 /* ---------- tablet device ---------- */
 /* ================================== */
-
+/* 
 @media only screen and (max-width: 968px){
     .top-banner{
         width: 851px;
@@ -248,4 +248,4 @@ hr{
     .player .player-details{
         display: none;
     }
-}
+} */
