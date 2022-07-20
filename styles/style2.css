@@ -8,7 +8,7 @@ body{
 }
 main{
     background-color: #FFFFFF;
-    width: 100%;
+    width: 1320px;
     height: 1800px;
 }
 .top-banner{
@@ -103,8 +103,10 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 750px;
+    width: 100%;
     height: 600px;
+    margin-left: 15px;
+    
 }
 .player{
     display: flex;
