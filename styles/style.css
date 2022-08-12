@@ -10,12 +10,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #B9B9B9;
-    padding-top: 5px;
 }
+
 main{
-    background-color: #FFFFFF;
-    position: absolute;
     width: 100%;
 }
 
@@ -25,44 +22,52 @@ main{
 
 .top-banner{
     background-color: #161616;
-    height: 600px;
+    width: 1150px;
+    height: 550px;
     border-radius: 30px;
-    margin: 50px 7.5%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 .container{
     display: flex;
-    flex-direction: row;
     margin-left: 100px;
     margin-top: 70px;
+    justify-content: space-between;
 }
-.heading{
-    width: 500px;
+
+.content h1{
     height: 200px;
+    width: 400px;
     line-height: 75px;
     color:#FFFFFF;
-    font-weight: 700px;
     font-size: 60px;
     margin-top: 80px;
+    text-align: justify;
 }
-.context{
+
+.content p{
     color: #FFFFFF;
+    width: 400px;
     font-size: 15px;
-    width: 450px;
     height: 80px;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    text-align: justify;
 }
-.button{
+
+.content a{
     text-decoration: none;
     color: #FFFFFF;
     background-color:#DD0000;
     border-radius: 4px;
     padding: 15px;
 }
+
 .photo img{
-    height: 550px;
+    height: 500px;
     margin-top: 50px;
-    margin-left: 35px;
+    margin-right: 50px;
 }
 
 /* =================================== */
@@ -75,42 +80,41 @@ main{
 
 .section-container{
     display: flex;
-    flex-direction: row;
-    margin-left: 8.5em;
     margin-top: 50px;
 }
+
 .side-col{
-    width: 230px;
-    height: 250px;
+    height: 200px;
     background-color:#161616;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
+    margin-left: 100px;
 }
+
 .side-btn{
-    display: flex;
-    flex-direction: column;
     align-items: center;
 }
+
 .side-btn a{
     text-decoration: none;
     color: #161616;
 }
+
 .btn{
     flex-direction: column;
     background-color: #FFFFFF;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     padding: 10px;
     text-align: center;
     color: #161616;
 }
+
 .btn3 a{
     background-color: #DD0000;
     border-radius: 5px;
     padding: 10px 63px;
     color: #FFFFFF;
-    margin-top: 30px;
 }
 
 /* ============================================ */
@@ -120,39 +124,44 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 17em;
+    margin-right: 90px;
 }
+
 .player{
-    width: 300px;
     height: 400px;
     border: 1px solid;
     box-shadow: 5px 10px 5px gray;
     border-radius: 11px;
     margin-bottom: 20px;
-    margin-right: 20px;
 }
+
 .player img{
     width: 100%;
     height: 200px;
 }
+
 .player button{
     margin: 10px 10px;
 }
+
 .player, .name{
     margin-left: 12px;
     font-size: 18px;
     color:#161616;
 }
+
 .player-details{
     display: flex;
     align-items: center;
     margin-left: 14px;
     margin-top: 30px;
 }
+
 .duration{
     color: rgba(22, 22, 22, 0.7);
     font-size: 16px;
 }
+
 .comment{
     color: rgba(22, 22, 22, 0.7);
     font-size: 16px;
@@ -165,26 +174,29 @@ main{
 
 footer{
     background-color: #161616;
-    margin-top: 100px;
-    height: 400px;
+    height: 350px;
 }
-#footer-head{
+
+footer h2{
     text-align: center;
     color: #FFFFFF;
-    padding-top: 90px;
+    padding-top: 80px;
     margin-bottom: 30px;
 }
+
 hr{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .footer-content{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
+
 .footer-content a{
     text-decoration: none;
     color: #B9B9B9;
@@ -198,47 +210,7 @@ hr{
 /* ==================================== */
 /* ---------- mobile device ---------- */
 /* ================================== */
-/*  
-@media only screen and (max-width: 968px){
-    .top-banner{
-        width: 851px;
-        margin-left: 0;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    .container{
-        margin-top: 0;
-
-    }
-    .section-container{
-        display: none;
-        background-color: #DD0000;
-    }
-    .player .player-details{
-        display: none;
-    }
-} */
 
 /* ==================================== */
 /* ---------- tablet device ---------- */
 /* ================================== */
-/* 
-@media only screen and (max-width: 968px){
-    .top-banner{
-        width: 851px;
-        margin-left: 0;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    .container{
-        margin-top: 0;
-
-    }
-    .section-container{
-        display: none;
-        background-color: #DD0000;
-    }
-    .player .player-details{
-        display: none;
-    }
-} */
